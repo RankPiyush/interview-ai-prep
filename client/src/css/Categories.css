@@ -1,0 +1,31 @@
+.categories {
+  background: #0f172a;
+  color: white;
+  padding: 80px 90px;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.category-card {
+  background: #111827;
+  padding: 35px;
+  border-radius: 16px;
+  border: 1px solid #1e293b;
+  text-align: center;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-8px);
+  border-color: #60a5fa;
+  box-shadow: 0 0 25px rgba(96,165,250,.2);
+}
+
+.category-card h3 {
+  font-size: 24px;
+}

@@ -1,0 +1,77 @@
+.login-page {
+  min-height: 100vh;
+  background: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.login-card {
+  width: 420px;
+  background: #111827;
+  padding: 40px;
+  border-radius: 18px;
+  border: 1px solid #1e293b;
+  text-align: center;
+}
+
+.login-card h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.login-card p {
+  color: #cbd5e1;
+  margin-bottom: 25px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.login-form input {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  background: #020617;
+  color: white;
+  font-size: 16px;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: #60a5fa;
+}
+
+.login-submit {
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #60a5fa;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.google-btn {
+  width: 100%;
+  margin-top: 18px;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.auth-text {
+  margin-top: 20px;
+}
+
+.auth-text span {
+  color: #60a5fa;
+  cursor: pointer;
+}
